@@ -64,7 +64,6 @@ const App = ({ data }) => {
           {/* </Link> */}
           <Image
             data={blogPost.heroimage.responsiveImage}
-            sizes='(min-width: 1024px) calc(30vw - 128px), (min-width: 768px) calc(50vw - 100px), calc(100vw - 70px)'
           />
           <p class="p-2">{blogPost.content}</p>
         </div>
